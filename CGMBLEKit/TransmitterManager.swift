@@ -71,7 +71,7 @@ public class TransmitterManager: TransmitterDelegate {
         return state.rawValue
     }
 
-    public let shouldSyncToRemoteService = true
+    public var shouldSyncToRemoteService = false
 
     public var cgmManagerDelegate: CGMManagerDelegate? {
         get {
